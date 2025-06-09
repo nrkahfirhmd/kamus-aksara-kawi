@@ -1,0 +1,43 @@
+@prefix : <http://contoh.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# Entitas naskah
+:naskahKawi01 a :Manuskrip ;
+  dcterms:title "Puput"@jv ;
+  dcterms:creator "Anonim" ;
+  dcterms:language "jv" ;
+  :ditulisMenggunakan :AksaraKawi .
+
+# Aksara yang digunakan
+:AksaraKawi a :SistemTulisan ;
+  rdfs:label "Aksara Kawi"@id ;
+  :berasalDariWilayah "Jawa"@id .
+
+# Baris dalam naskah
+:baris001 a :BarisNaskah ;
+  :isFromManuscript :naskahKawi01 ;
+  :mengandungAksara :aksara_baris001 ;
+  :hasTransliteration :translit_baris001 ;
+  :hasTranslation :terjemah_baris001 ;
+  dcterms:identifier "KAWI01-B001" .
+
+# Aksara asli dari baris tersebut (dalam aksara Kawi)
+:aksara_baris001 a :TeksAksara ;
+  rdf:value "ꦥꦸꦥꦸꦠ꧀"@jv-x-kawi ; 
+  lexinfo:script :AksaraKawi ;
+  :jumlahKarakter "5"^^xsd:integer .
+
+# Hasil transliterasi Latin
+:translit_baris001 a :Transliterasi ;
+  rdf:value "puput"@jv-Latn ;
+  :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" .
+
+# Hasil terjemahan ke dalam Bahasa Indonesia
+:terjemah_baris001 a :Terjemahan ;
+  rdf:value "selesai"@id ;
+  :keBahasa "id" ;
+  :dariBahasa "jv" .

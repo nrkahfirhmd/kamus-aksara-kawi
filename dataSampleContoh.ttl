@@ -1,0 +1,43 @@
+@prefix : <http://contoh.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+  # Entitas naskah
+:naskahJawa01 a :Manuskrip ;
+  dcterms:title "Serat Wulangreh"@jv ;
+  dcterms:creator "Pakubuwono IV" ;
+  dcterms:language "jv" ;
+  :ditulisMenggunakan :AksaraJawa .
+
+# Aksara yang digunakan
+:AksaraJawa a :SistemTulisan ;
+  rdfs:label "Aksara Jawa"@id ;
+  :berasalDariWilayah "Jawa Tengah"@id .
+
+# Baris dalam naskah
+:baris001 a :BarisNaskah ;
+  :isFromManuscript :naskahJawa01 ;
+  :mengandungAksara :aksara_baris001 ;
+  :hasTransliteration :translit_baris001 ;
+  :hasTranslation :terjemah_baris001 ;
+  dcterms:identifier "JAWA01-B001" .
+
+# Aksara asli dari baris tersebut
+:aksara_baris001 a :TeksAksara ;
+  rdf:value "ꦧꦸꦠ꧀"@jv-x-java ;
+  lexinfo:script :AksaraJawa ;
+  :jumlahKarakter "3"^^xsd:integer .
+
+# Hasil transliterasi
+:translit_baris001 a :Transliterasi ;
+  rdf:value "but"@jv-Latn ;
+  :menggunakanAturan "Aturan Transliterasi Jawa-Latin 2020" .
+
+# Hasil terjemahan
+:terjemah_baris001 a :Terjemahan ;
+  rdf:value "nasi"@id ;
+  :keBahasa "id" ;
+  :dariBahasa "jv" .
