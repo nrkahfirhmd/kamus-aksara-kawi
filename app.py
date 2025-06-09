@@ -3,7 +3,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
 
 # Konfigurasi endpoint Jena Fuseki
-FUSEKI_ENDPOINT = "http://localhost:3030/kawi/sparql"
+FUSEKI_ENDPOINT = "http://localhost:3030/pratisentana1/sparql"
 
 st.set_page_config(page_title="Kamus Aksara Kawi", layout="wide")
 st.title("📖 Kamus Aksara Kawi (Terhubung ke Jena Fuseki)")
@@ -38,14 +38,14 @@ input_latin = st.text_input("Masukkan Kata Latin (misal: Ka)")
 # Terjemahkan dari Aksara Kawi
 if input_kawi:
     sparql = f"""
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX ex: <http://example.org/>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      PREFIX kamus: <http://example.org/kamus#>
 
-    SELECT ?label ?arti WHERE {{
-        ?s rdfs:label "{input_kawi}" ;
-           ex:arti ?arti .
-    }}
-    """
+      SELECT ?arti WHERE {{
+          ?s rdfs:label "{input_kawi}" ;
+            kamus:arti ?arti .
+      }}
+      """
     results = query_fuseki(sparql)
     if results:
         st.success(f"Terjemahan: {results[0]['arti']['value']}")
@@ -56,11 +56,11 @@ if input_kawi:
 elif input_latin:
     sparql = f"""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX ex: <http://example.org/>
+    PREFIX kamus: <http://example.org/kamus#>
 
     SELECT ?label WHERE {{
         ?s rdfs:label ?label ;
-           ex:arti "{input_latin}" .
+          kamus:arti "{input_latin}" .
     }}
     """
     results = query_fuseki(sparql)
