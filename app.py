@@ -38,12 +38,17 @@ input_latin = st.text_input("Masukkan Kata Latin (misal: Ka)")
 # Terjemahkan dari Aksara Kawi
 if input_kawi:
     sparql = f"""
-      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-      PREFIX kamus: <http://example.org/kamus#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX : <http://pratisentana.org/ontology#>
 
-      SELECT ?arti WHERE {{
-          ?s rdfs:label "{input_kawi}" ;
-            kamus:arti ?arti .
+      SELECT ?latin WHERE {{
+        ?kawiText a :TeksAksara ;
+                  rdf:value ?kawi .
+        FILTER (lang(?kawi) = "jv-x-krama" && str(?kawi) = "{input_kawi}")
+
+        ?translit a :Transliterasi ;
+                  rdf:value ?latin .
+        FILTER (lang(?latin) = "jv-Latn")
       }}
       """
     results = query_fuseki(sparql)
@@ -55,14 +60,19 @@ if input_kawi:
 # Terjemahkan dari Latin ke Aksara
 elif input_latin:
     sparql = f"""
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX kamus: <http://example.org/kamus#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX : <http://pratisentana.org/ontology#>
 
-    SELECT ?label WHERE {{
-        ?s rdfs:label ?label ;
-          kamus:arti "{input_latin}" .
-    }}
-    """
+      SELECT ?kawi WHERE {{
+        ?translit a :Transliterasi ;
+                  rdf:value ?latin .
+        FILTER (lang(?latin) = "jv-Latn" && str(?latin) = "{input_latin}")
+
+        ?kawiText a :TeksAksara ;
+                  rdf:value ?kawi .
+        FILTER (lang(?kawi) = "jv-x-krama")
+      }}
+      """
     results = query_fuseki(sparql)
     if results:
         st.success(f"Aksara Kawi: {results[0]['label']['value']}")
