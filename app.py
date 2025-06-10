@@ -9,8 +9,6 @@ st.set_page_config(page_title="Kamus Aksara Kawi", layout="wide")
 st.title("📖 Kamus Aksara Kawi (Terhubung ke Jena Fuseki)")
 
 # Fungsi untuk SPARQL query
-
-
 def query_fuseki(sparql_query):
     sparql = SPARQLWrapper(FUSEKI_ENDPOINT)
     sparql.setQuery(sparql_query)
@@ -21,14 +19,24 @@ def query_fuseki(sparql_query):
 
 # Tampilan keyboard aksara kawi
 with st.expander("⌨️ Keyboard Aksara Kawi"):
-    aksara_list = ["ꦏ", "ꦠ", "ꦤ", "ꦧ", "ꦗ", "ꦒ", "ꦥ", "ꦩ", "ꦚ", "ꦛ", "ꦝ"]
-    col1, col2 = st.columns(2)
-    with col1:
-        st.write("Klik untuk memasukkan aksara:")
-        for aksara in aksara_list:
-            if st.button(aksara, key=aksara):
-                st.session_state["input_kawi"] = st.session_state.get(
-                    "input_kawi", "") + aksara
+    st.write("Klik untuk memasukkan aksara:")
+    # Using a dictionary to map Kawi script to its Latin transliteration
+    aksara_map = {
+        "ꦏ": "ka", "ꦠ": "ta", "ꦤ": "na", "ꦧ": "ba", "ꦗ": "ja",
+        "ꦒ": "ga", "ꦥ": "pa", "ꦩ": "ma", "ꦚ": "nya", "ꦛ": "tha", "ꦝ": "dha"
+    }
+
+    # Create a number of columns equal to the number of characters for a horizontal layout
+    cols = st.columns(len(aksara_map))
+
+    # Iterate through each column and place one button
+    for i, (aksara, latin) in enumerate(aksara_map.items()):
+        with cols[i]:
+            # Create a label that includes both the script and its transliteration
+            button_label = f"{aksara}"
+            if st.button(button_label, key=f"key_{aksara}", help=f"Masukkan aksara {latin}", use_container_width=True):
+                # Append the selected character to the input text in session state
+                st.session_state["input_kawi"] = st.session_state.get("input_kawi", "") + aksara
 
 # Input dari pengguna
 st.subheader("🔡 Terjemahkan Aksara Kawi ↔ Latin")
