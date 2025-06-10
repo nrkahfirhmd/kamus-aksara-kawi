@@ -42,18 +42,21 @@ if input_kawi:
       PREFIX : <http://pratisentana.org/ontology#>
 
       SELECT ?latin WHERE {{
-        ?kawiText a :TeksAksara ;
-                  rdf:value ?kawi .
-        FILTER (lang(?kawi) = "jv-x-krama" && str(?kawi) = "{input_kawi}")
+        # Find the specific Kawi text node based on the input string.
+        # Note: The input Kawi string must be an exact match.
+        ?kawiText rdf:value "{input_kawi}"@jv-x-krama .
 
-        ?translit a :Transliterasi ;
-                  rdf:value ?latin .
-        FILTER (lang(?latin) = "jv-Latn")
+        # Use the central entry to find the connection
+        ?entry :memilikiTeksAksara ?kawiText ;
+              :memilikiTransliterasi ?translit .
+
+        # Get the value from the correctly linked transliteration node
+        ?translit rdf:value ?latin .
       }}
       """
     results = query_fuseki(sparql)
     if results:
-        st.success(f"Terjemahan: {results[0]['arti']['value']}")
+        st.success(f"Terjemahan: {results[0]['latin']['value']}")
     else:
         st.warning("Tidak ditemukan terjemahan untuk aksara tersebut.")
 
@@ -64,17 +67,20 @@ elif input_latin:
       PREFIX : <http://pratisentana.org/ontology#>
 
       SELECT ?kawi WHERE {{
-        ?translit a :Transliterasi ;
-                  rdf:value ?latin .
-        FILTER (lang(?latin) = "jv-Latn" && str(?latin) = "{input_latin}")
+        # Find the central entry that connects the different text forms
+        ?entry :memilikiTerjemahan ?terjemah ;
+              :memilikiTeksAksara ?kawiText .
 
-        ?kawiText a :TeksAksara ;
-                  rdf:value ?kawi .
-        FILTER (lang(?kawi) = "jv-x-krama")
+        # Filter to find the entry where the Indonesian translation is "{input_latin}"
+        ?terjemah rdf:value ?indonesianValue .
+        FILTER(str(?indonesianValue) = "{input_latin}")
+
+        # Get the corresponding Kawi script from that same entry
+        ?kawiText rdf:value ?kawi .
       }}
       """
     results = query_fuseki(sparql)
     if results:
-        st.success(f"Aksara Kawi: {results[0]['label']['value']}")
+        st.success(f"Aksara Kawi: {results[0]['kawi']['value']}")
     else:
         st.warning("Tidak ditemukan aksara untuk arti tersebut.")
