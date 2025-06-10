@@ -106,7 +106,7 @@ if input_kawi:
 
         # Use the central entry to find the connection
         ?entry :memilikiTeksAksara ?kawiText ;
-              :memilikiTransliterasi ?translit .
+              :memilikiTerjemahan ?translit .
 
         # Get the value from the correctly linked transliteration node
         ?translit rdf:value ?latin .
