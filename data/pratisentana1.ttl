@@ -4,7 +4,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-
 :aksara_B001 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦎꦩ꧀"@jv-x-krama .
 :translit_B001 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "Om"@jv-Latn .
 :terjemah_B001 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "Wighnam"@id .
@@ -314,3 +313,943 @@
 :translit_B062 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sakti"@jv-Latn .
 :terjemah_B062 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kekuatan"@id .
 :entry_B062 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B062 ; :memilikiTransliterasi :translit_B062 ; :memilikiTerjemahan :terjemah_B062 .
+
+:aksara_B063 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦶꦤ꧀"@jv-x-krama .
+:translit_B063 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kin"@jv-Latn .
+:terjemah_B063 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pernah"@id .
+:entry_B063 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B063 ; :memilikiTransliterasi :translit_B063 ; :memilikiTerjemahan :terjemah_B063 .
+
+:aksara_B064 a :TeksAksara ; :jumlahKarakter 7 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦶꦱ꧀ꦠꦺꦴ"@jv-x-krama .
+:translit_B064 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pisté"@jv-Latn .
+:terjemah_B064 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "percaya"@id .
+:entry_B064 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B064 ; :memilikiTransliterasi :translit_B064 ; :memilikiTerjemahan :terjemah_B064 .
+
+:aksara_B065 a :TeksAksara ; :jumlahKarakter 6 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦸꦤ꧀ꦝꦶ"@jv-x-krama .
+:translit_B065 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mundi"@jv-Latn .
+:terjemah_B065 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bumi"@id .
+:entry_B065 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B065 ; :memilikiTransliterasi :translit_B065 ; :memilikiTerjemahan :terjemah_B065 .
+
+:aksara_B066 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦺꦴꦤ"@jv-x-krama .
+:translit_B066 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "én"@jv-Latn .
+:terjemah_B066 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kamu"@id .
+:entry_B066 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B066 ; :memilikiTransliterasi :translit_B066 ; :memilikiTerjemahan :terjemah_B066 .
+
+:aksara_B067 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦺꦴ"@jv-x-krama .
+:translit_B067 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "é"@jv-Latn .
+:terjemah_B067 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "dia"@id .
+:entry_B067 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B067 ; :memilikiTransliterasi :translit_B067 ; :memilikiTerjemahan :terjemah_B067 .
+
+:aksara_B068 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦺꦴꦁ"@jv-x-krama .
+:translit_B068 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "éng"@jv-Latn .
+:terjemah_B068 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "mereka"@id .
+:entry_B068 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B068 ; :memilikiTransliterasi :translit_B068 ; :memilikiTerjemahan :terjemah_B068 .
+
+:aksara_B069 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦤꦺꦴꦁ"@jv-x-krama .
+:translit_B069 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "neng"@jv-Latn .
+:terjemah_B069 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "ke"@id .
+:entry_B069 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B069 ; :memilikiTransliterasi :translit_B069 ; :memilikiTerjemahan :terjemah_B069 .
+
+:aksara_B070 a :TeksAksara ; :jumlahKarakter 7 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦺꦴꦤ꧀ꦢꦶ"@jv-x-krama .
+:translit_B070 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "éndi"@jv-Latn .
+:terjemah_B070 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "mana"@id .
+:entry_B070 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B070 ; :memilikiTransliterasi :translit_B070 ; :memilikiTerjemahan :terjemah_B070 .
+
+:aksara_B071 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦕꦺꦴꦫ"@jv-x-krama .
+:translit_B071 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "cora"@jv-Latn .
+:terjemah_B071 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bentuk"@id .
+:entry_B071 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B071 ; :memilikiTransliterasi :translit_B071 ; :memilikiTerjemahan :terjemah_B071 .
+
+:aksara_B072 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦒꦸꦤ"@jv-x-krama .
+:translit_B072 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "guna"@jv-Latn .
+:terjemah_B072 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "manfaat"@id .
+:entry_B072 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B072 ; :memilikiTransliterasi :translit_B072 ; :memilikiTerjemahan :terjemah_B072 .
+
+:aksara_B073 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦺꦴꦠ"@jv-x-krama .
+:translit_B073 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bota"@jv-Latn .
+:terjemah_B073 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "besar"@id .
+:entry_B073 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B073 ; :memilikiTransliterasi :translit_B073 ; :memilikiTerjemahan :terjemah_B073 .
+
+:aksara_B074 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦭꦏ꧀"@jv-x-krama .
+:translit_B074 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "salak"@jv-Latn .
+:terjemah_B074 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kulit"@id .
+:entry_B074 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B074 ; :memilikiTransliterasi :translit_B074 ; :memilikiTerjemahan :terjemah_B074 .
+
+:aksara_B075 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦸꦠ꧀"@jv-x-krama .
+:translit_B075 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "put"@jv-Latn .
+:terjemah_B075 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "putih"@id .
+:entry_B075 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B075 ; :memilikiTransliterasi :translit_B075 ; :memilikiTerjemahan :terjemah_B075 .
+
+:aksara_B076 a :TeksAksara ; :jumlahKarakter 2 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦤ"@jv-x-krama .
+:translit_B076 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kana"@jv-Latn .
+:terjemah_B076 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "karena"@id .
+:entry_B076 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B076 ; :memilikiTransliterasi :translit_B076 ; :memilikiTerjemahan :terjemah_B076 .
+
+:aksara_B077 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦼꦤ"@jv-x-krama .
+:translit_B077 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pena"@jv-Latn .
+:terjemah_B077 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pena"@id .
+:entry_B077 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B077 ; :memilikiTransliterasi :translit_B077 ; :memilikiTerjemahan :terjemah_B077 .
+
+:aksara_B078 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦺꦴꦏ"@jv-x-krama .
+:translit_B078 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "doka"@jv-Latn .
+:terjemah_B078 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "perintah"@id .
+:entry_B078 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B078 ; :memilikiTransliterasi :translit_B078 ; :memilikiTerjemahan :terjemah_B078 .
+
+:aksara_B079 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦸꦁ"@jv-x-krama .
+:translit_B079 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sung"@jv-Latn .
+:terjemah_B079 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "air"@id .
+:entry_B079 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B079 ; :memilikiTransliterasi :translit_B079 ; :memilikiTerjemahan :terjemah_B079 .
+
+:aksara_B080 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦼꦤ"@jv-x-krama .
+:translit_B080 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jena"@jv-Latn .
+:terjemah_B080 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "menjadi"@id .
+:entry_B080 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B080 ; :memilikiTransliterasi :translit_B080 ; :memilikiTerjemahan :terjemah_B080 .
+
+:aksara_B081 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦶꦠꦶ"@jv-x-krama .
+:translit_B081 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "iti"@jv-Latn .
+:terjemah_B081 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "itu"@id .
+:entry_B081 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B081 ; :memilikiTransliterasi :translit_B081 ; :memilikiTerjemahan :terjemah_B081 .
+
+:aksara_B082 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦺꦴꦭ"@jv-x-krama .
+:translit_B082 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "méla"@jv-Latn .
+:terjemah_B082 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kesalahan"@id .
+:entry_B082 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B082 ; :memilikiTransliterasi :translit_B082 ; :memilikiTerjemahan :terjemah_B082 .
+
+:aksara_B083 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦒꦸꦛ"@jv-x-krama .
+:translit_B083 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "gutha"@jv-Latn .
+:terjemah_B083 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "gelap"@id .
+:entry_B083 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B083 ; :memilikiTransliterasi :translit_B083 ; :memilikiTerjemahan :terjemah_B083 .
+
+:aksara_B084 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦶꦠꦸ"@jv-x-krama .
+:translit_B084 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bita"@jv-Latn .
+:terjemah_B084 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "berita"@id .
+:entry_B084 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B084 ; :memilikiTransliterasi :translit_B084 ; :memilikiTerjemahan :terjemah_B084 .
+
+:aksara_B085 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦭꦤ꧀ꦢ"@jv-x-krama .
+:translit_B085 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "landa"@jv-Latn .
+:terjemah_B085 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tanah"@id .
+:entry_B085 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B085 ; :memilikiTransliterasi :translit_B085 ; :memilikiTerjemahan :terjemah_B085 .
+
+:aksara_B086 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦁꦱ"@jv-x-krama .
+:translit_B086 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pangsa"@jv-Latn .
+:terjemah_B086 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bagian"@id .
+:entry_B086 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B086 ; :memilikiTransliterasi :translit_B086 ; :memilikiTerjemahan :terjemah_B086 .
+
+:aksara_B087 a :TeksAksara ; :jumlahKarakter 2 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦏ"@jv-x-krama .
+:translit_B087 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "daka"@jv-Latn .
+:terjemah_B087 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "mengambil"@id .
+:entry_B087 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B087 ; :memilikiTransliterasi :translit_B087 ; :memilikiTerjemahan :terjemah_B087 .
+
+:aksara_B088 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦶꦢ꧀"@jv-x-krama .
+:translit_B088 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kid"@jv-Latn .
+:terjemah_B088 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "anak"@id .
+:entry_B088 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B088 ; :memilikiTransliterasi :translit_B088 ; :memilikiTerjemahan :terjemah_B088 .
+
+:aksara_B089 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦺꦴꦫ"@jv-x-krama .
+:translit_B089 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "méra"@jv-Latn .
+:terjemah_B089 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "merah"@id .
+:entry_B089 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B089 ; :memilikiTransliterasi :translit_B089 ; :memilikiTerjemahan :terjemah_B089 .
+
+:aksara_B090 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦼꦤ"@jv-x-krama .
+:translit_B090 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kena"@jv-Latn .
+:terjemah_B090 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kena"@id .
+:entry_B090 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B090 ; :memilikiTransliterasi :translit_B090 ; :memilikiTerjemahan :terjemah_B090 .
+
+:aksara_B091 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦭꦺꦴꦭ"@jv-x-krama .
+:translit_B091 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "lola"@jv-Latn .
+:terjemah_B091 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "goyang"@id .
+:entry_B091 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B091 ; :memilikiTransliterasi :translit_B091 ; :memilikiTerjemahan :terjemah_B091 .
+
+:aksara_B092 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦼꦩ꧀"@jv-x-krama .
+:translit_B092 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bêm"@jv-Latn .
+:terjemah_B092 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "diam"@id .
+:entry_B092 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B092 ; :memilikiTransliterasi :translit_B092 ; :memilikiTerjemahan :terjemah_B092 .
+
+:aksara_B093 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦺꦴꦤ"@jv-x-krama .
+:translit_B093 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wéna"@jv-Latn .
+:terjemah_B093 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "baik"@id .
+:entry_B093 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B093 ; :memilikiTransliterasi :translit_B093 ; :memilikiTerjemahan :terjemah_B093 .
+
+:aksara_B094 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦼꦫꦸ"@jv-x-krama .
+:translit_B094 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "peru"@jv-Latn .
+:terjemah_B094 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "butuh"@id .
+:entry_B094 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B094 ; :memilikiTransliterasi :translit_B094 ; :memilikiTerjemahan :terjemah_B094 .
+
+:aksara_B095 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦶꦭ꧀"@jv-x-krama .
+:translit_B095 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hil"@jv-Latn .
+:terjemah_B095 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hilang"@id .
+:entry_B095 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B095 ; :memilikiTransliterasi :translit_B095 ; :memilikiTerjemahan :terjemah_B095 .
+
+:aksara_B096 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦕꦺꦴꦱ"@jv-x-krama .
+:translit_B096 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "cosa"@jv-Latn .
+:terjemah_B096 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hal"@id .
+:entry_B096 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B096 ; :memilikiTransliterasi :translit_B096 ; :memilikiTerjemahan :terjemah_B096 .
+
+:aksara_B097 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦶꦩ꧀"@jv-x-krama .
+:translit_B097 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sima"@jv-Latn .
+:terjemah_B097 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hukum"@id .
+:entry_B097 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B097 ; :memilikiTransliterasi :translit_B097 ; :memilikiTerjemahan :terjemah_B097 .
+
+:aksara_B098 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦺꦴꦫ"@jv-x-krama .
+:translit_B098 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "dora"@jv-Latn .
+:terjemah_B098 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bohong"@id .
+:entry_B098 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B098 ; :memilikiTransliterasi :translit_B098 ; :memilikiTerjemahan :terjemah_B098 .
+
+:aksara_B099 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦺꦴꦤ"@jv-x-krama .
+:translit_B099 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kona"@jv-Latn .
+:terjemah_B099 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tempat"@id .
+:entry_B099 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B099 ; :memilikiTransliterasi :translit_B099 ; :memilikiTerjemahan :terjemah_B099 .
+
+:aksara_B100 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦭꦶꦫ"@jv-x-krama .
+:translit_B100 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "lira"@jv-Latn .
+:terjemah_B100 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kamu (halus)"@id .
+:entry_B100 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B100 ; :memilikiTransliterasi :translit_B100 ; :memilikiTerjemahan :terjemah_B100 .
+
+:aksara_B101 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦶꦭ"@jv-x-krama .
+:translit_B101 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bila"@jv-Latn .
+:terjemah_B101 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "jika"@id .
+:entry_B101 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B101 ; :memilikiTransliterasi :translit_B101 ; :memilikiTerjemahan :terjemah_B101 .
+
+:aksara_B102 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦼꦫ"@jv-x-krama .
+:translit_B102 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pera"@jv-Latn .
+:terjemah_B102 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pisah"@id .
+:entry_B102 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B102 ; :memilikiTransliterasi :translit_B102 ; :memilikiTerjemahan :terjemah_B102 .
+
+:aksara_B103 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦸꦁ"@jv-x-krama .
+:translit_B103 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kung"@jv-Latn .
+:terjemah_B103 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "burung"@id .
+:entry_B103 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B103 ; :memilikiTransliterasi :translit_B103 ; :memilikiTerjemahan :terjemah_B103 .
+
+:aksara_B104 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦒꦼꦤ꧀"@jv-x-krama .
+:translit_B104 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "gên"@jv-Latn .
+:terjemah_B104 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "berikan"@id .
+:entry_B104 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B104 ; :memilikiTransliterasi :translit_B104 ; :memilikiTerjemahan :terjemah_B104 .
+
+:aksara_B105 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦼꦔꦶ"@jv-x-krama .
+:translit_B105 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wêngi"@jv-Latn .
+:terjemah_B105 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "malam"@id .
+:entry_B105 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B105 ; :memilikiTransliterasi :translit_B105 ; :memilikiTerjemahan :terjemah_B105 .
+
+:aksara_B106 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦭꦼꦁ"@jv-x-krama .
+:translit_B106 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "lêng"@jv-Latn .
+:terjemah_B106 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "jauh"@id .
+:entry_B106 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B106 ; :memilikiTransliterasi :translit_B106 ; :memilikiTerjemahan :terjemah_B106 .
+
+:aksara_B107 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦼꦤ꧀"@jv-x-krama .
+:translit_B107 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bên"@jv-Latn .
+:terjemah_B107 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bangun"@id .
+:entry_B107 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B107 ; :memilikiTransliterasi :translit_B107 ; :memilikiTerjemahan :terjemah_B107 .
+
+:aksara_B108 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦶꦤꦺꦴ"@jv-x-krama .
+:translit_B108 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hiné"@jv-Latn .
+:terjemah_B108 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "rendah"@id .
+:entry_B108 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B108 ; :memilikiTransliterasi :translit_B108 ; :memilikiTerjemahan :terjemah_B108 .
+
+:aksara_B109 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦭꦺꦴꦤ"@jv-x-krama .
+:translit_B109 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "lona"@jv-Latn .
+:terjemah_B109 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "lubang"@id .
+:entry_B109 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B109 ; :memilikiTransliterasi :translit_B109 ; :memilikiTerjemahan :terjemah_B109 .
+
+:aksara_B110 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦶꦠ"@jv-x-krama .
+:translit_B110 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pita"@jv-Latn .
+:terjemah_B110 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pengetahuan"@id .
+:entry_B110 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B110 ; :memilikiTransliterasi :translit_B110 ; :memilikiTerjemahan :terjemah_B110 .
+
+:aksara_B111 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦺꦴꦤ"@jv-x-krama .
+:translit_B111 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sona"@jv-Latn .
+:terjemah_B111 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "seni"@id .
+:entry_B111 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B111 ; :memilikiTransliterasi :translit_B111 ; :memilikiTerjemahan :terjemah_B111 .
+
+:aksara_B112 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦶꦪ"@jv-x-krama .
+:translit_B112 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "biya"@jv-Latn .
+:terjemah_B112 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bagaimana"@id .
+:entry_B112 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B112 ; :memilikiTransliterasi :translit_B112 ; :memilikiTerjemahan :terjemah_B112 .
+
+:aksara_B113 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦿꦶ"@jv-x-krama .
+:translit_B113 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kri"@jv-Latn .
+:terjemah_B113 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "buat"@id .
+:entry_B113 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B113 ; :memilikiTransliterasi :translit_B113 ; :memilikiTerjemahan :terjemah_B113 .
+
+:aksara_B114 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦺꦤ꧀"@jv-x-krama .
+:translit_B114 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mén"@jv-Latn .
+:terjemah_B114 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "perempuan"@id .
+:entry_B114 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B114 ; :memilikiTransliterasi :translit_B114 ; :memilikiTerjemahan :terjemah_B114 .
+
+:aksara_B115 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦤ꧀ꦢ"@jv-x-krama .
+:translit_B115 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "handa"@jv-Latn .
+:terjemah_B115 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "siap"@id .
+:entry_B115 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B115 ; :memilikiTransliterasi :translit_B115 ; :memilikiTerjemahan :terjemah_B115 .
+
+:aksara_B116 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦸꦤ"@jv-x-krama .
+:translit_B116 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "buna"@jv-Latn .
+:terjemah_B116 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "racun"@id .
+:entry_B116 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B116 ; :memilikiTransliterasi :translit_B116 ; :memilikiTerjemahan :terjemah_B116 .
+
+:aksara_B117 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦺꦴꦤ"@jv-x-krama .
+:translit_B117 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jona"@jv-Latn .
+:terjemah_B117 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "lembah"@id .
+:entry_B117 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B117 ; :memilikiTransliterasi :translit_B117 ; :memilikiTerjemahan :terjemah_B117 .
+
+:aksara_B118 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦠꦶꦪ"@jv-x-krama .
+:translit_B118 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "tia"@jv-Latn .
+:terjemah_B118 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "terbang"@id .
+:entry_B118 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B118 ; :memilikiTransliterasi :translit_B118 ; :memilikiTerjemahan :terjemah_B118 .
+
+:aksara_B119 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦒꦺꦪ"@jv-x-krama .
+:translit_B119 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "gaya"@jv-Latn .
+:terjemah_B119 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bentuk"@id .
+:entry_B119 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B119 ; :memilikiTransliterasi :translit_B119 ; :memilikiTerjemahan :terjemah_B119 .
+
+:aksara_B120 a :TeksAksara ; :jumlahKarakter 6 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦶꦁꦒꦤ꧀"@jv-x-krama .
+:translit_B120 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hinggan"@jv-Latn .
+:terjemah_B120 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "berhenti"@id .
+:entry_B120 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B120 ; :memilikiTransliterasi :translit_B120 ; :memilikiTerjemahan :terjemah_B120 .
+
+:aksara_B121 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦺꦴꦒ꧀"@jv-x-krama .
+:translit_B121 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wog"@jv-Latn .
+:terjemah_B121 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "laut"@id .
+:entry_B121 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B121 ; :memilikiTransliterasi :translit_B121 ; :memilikiTerjemahan :terjemah_B121 .
+
+:aksara_B122 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦭꦺꦴꦩ"@jv-x-krama .
+:translit_B122 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "loma"@jv-Latn .
+:terjemah_B122 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "lembut"@id .
+:entry_B122 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B122 ; :memilikiTransliterasi :translit_B122 ; :memilikiTerjemahan :terjemah_B122 .
+
+:aksara_B123 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦕꦺꦮ"@jv-x-krama .
+:translit_B123 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "cewa"@jv-Latn .
+:terjemah_B123 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kecewa"@id .
+:entry_B123 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B123 ; :memilikiTransliterasi :translit_B123 ; :memilikiTerjemahan :terjemah_B123 .
+
+:aksara_B124 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦶꦒꦼ"@jv-x-krama .
+:translit_B124 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kingê"@jv-Latn .
+:terjemah_B124 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "raja"@id .
+:entry_B124 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B124 ; :memilikiTransliterasi :translit_B124 ; :memilikiTerjemahan :terjemah_B124 .
+
+:aksara_B125 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦒꦶꦁ"@jv-x-krama .
+:translit_B125 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "ging"@jv-Latn .
+:terjemah_B125 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "jalan"@id .
+:entry_B125 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B125 ; :memilikiTransliterasi :translit_B125 ; :memilikiTerjemahan :terjemah_B125 .
+
+:aksara_B126 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦸꦭ꧀"@jv-x-krama .
+:translit_B126 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "múl"@jv-Latn .
+:terjemah_B126 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "akar"@id .
+:entry_B126 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B126 ; :memilikiTransliterasi :translit_B126 ; :memilikiTerjemahan :terjemah_B126 .
+
+:aksara_B127 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦶꦗ"@jv-x-krama .
+:translit_B127 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hija"@jv-Latn .
+:terjemah_B127 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hijau"@id .
+:entry_B127 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B127 ; :memilikiTransliterasi :translit_B127 ; :memilikiTerjemahan :terjemah_B127 .
+
+:aksara_B128 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦶꦤ"@jv-x-krama .
+:translit_B128 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pina"@jv-Latn .
+:terjemah_B128 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pergi"@id .
+:entry_B128 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B128 ; :memilikiTransliterasi :translit_B128 ; :memilikiTerjemahan :terjemah_B128 .
+
+:aksara_B129 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦶꦤ"@jv-x-krama .
+:translit_B129 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wina"@jv-Latn .
+:terjemah_B129 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "ilmu"@id .
+:entry_B129 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B129 ; :memilikiTransliterasi :translit_B129 ; :memilikiTerjemahan :terjemah_B129 .
+
+:aksara_B130 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦺꦴꦮ"@jv-x-krama .
+:translit_B130 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "dowa"@jv-Latn .
+:terjemah_B130 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "dua"@id .
+:entry_B130 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B130 ; :memilikiTransliterasi :translit_B130 ; :memilikiTerjemahan :terjemah_B130 .
+
+:aksara_B131 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦺꦴꦛ"@jv-x-krama .
+:translit_B131 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kotha"@jv-Latn .
+:terjemah_B131 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kota"@id .
+:entry_B131 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B131 ; :memilikiTransliterasi :translit_B131 ; :memilikiTerjemahan :terjemah_B131 .
+
+:aksara_B132 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦺꦴꦧ"@jv-x-krama .
+:translit_B132 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "soba"@jv-Latn .
+:terjemah_B132 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "sopan"@id .
+:entry_B132 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B132 ; :memilikiTransliterasi :translit_B132 ; :memilikiTerjemahan :terjemah_B132 .
+
+:aksara_B133 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦶꦤ"@jv-x-krama .
+:translit_B133 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bina"@jv-Latn .
+:terjemah_B133 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "ajar"@id .
+:entry_B133 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B133 ; :memilikiTransliterasi :translit_B133 ; :memilikiTerjemahan :terjemah_B133 .
+
+:aksara_B134 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦸꦁ"@jv-x-krama .
+:translit_B134 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mung"@jv-Latn .
+:terjemah_B134 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "mungkin"@id .
+:entry_B134 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B134 ; :memilikiTransliterasi :translit_B134 ; :memilikiTerjemahan :terjemah_B134 .
+
+:aksara_B135 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦶꦠꦶ"@jv-x-krama .
+:translit_B135 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "piti"@jv-Latn .
+:terjemah_B135 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "uang"@id .
+:entry_B135 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B135 ; :memilikiTransliterasi :translit_B135 ; :memilikiTerjemahan :terjemah_B135 .
+
+:aksara_B136 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦒꦼꦁ"@jv-x-krama .
+:translit_B136 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "gêng"@jv-Latn .
+:terjemah_B136 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tengah"@id .
+:entry_B136 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B136 ; :memilikiTransliterasi :translit_B136 ; :memilikiTerjemahan :terjemah_B136 .
+
+:aksara_B137 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦶꦠꦼ"@jv-x-krama .
+:translit_B137 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hite"@jv-Latn .
+:terjemah_B137 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "putih"@id .
+:entry_B137 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B137 ; :memilikiTransliterasi :translit_B137 ; :memilikiTerjemahan :terjemah_B137 .
+
+:aksara_B138 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦤꦶꦤ"@jv-x-krama .
+:translit_B138 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "nina"@jv-Latn .
+:terjemah_B138 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "mimpi"@id .
+:entry_B138 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B138 ; :memilikiTransliterasi :translit_B138 ; :memilikiTerjemahan :terjemah_B138 .
+
+:aksara_B139 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦶꦤ"@jv-x-krama .
+:translit_B139 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sina"@jv-Latn .
+:terjemah_B139 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "terang"@id .
+:entry_B139 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B139 ; :memilikiTransliterasi :translit_B139 ; :memilikiTerjemahan :terjemah_B139 .
+
+:aksara_B140 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦶꦕ"@jv-x-krama .
+:translit_B140 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bica"@jv-Latn .
+:terjemah_B140 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bicara"@id .
+:entry_B140 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B140 ; :memilikiTransliterasi :translit_B140 ; :memilikiTerjemahan :terjemah_B140 .
+
+:aksara_B141 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦸꦛ"@jv-x-krama .
+:translit_B141 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kutha"@jv-Latn .
+:terjemah_B141 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kota"@id .
+:entry_B141 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B141 ; :memilikiTransliterasi :translit_B141 ; :memilikiTerjemahan :terjemah_B141 .
+
+:aksara_B142 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦼꦔ"@jv-x-krama .
+:translit_B142 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "peng"@jv-Latn .
+:terjemah_B142 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "dengar"@id .
+:entry_B142 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B142 ; :memilikiTransliterasi :translit_B142 ; :memilikiTerjemahan :terjemah_B142 .
+
+:aksara_B143 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦼꦩ"@jv-x-krama .
+:translit_B143 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jema"@jv-Latn .
+:terjemah_B143 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "orang"@id .
+:entry_B143 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B143 ; :memilikiTransliterasi :translit_B143 ; :memilikiTerjemahan :terjemah_B143 .
+
+:aksara_B144 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦠꦶꦱ"@jv-x-krama .
+:translit_B144 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "tisa"@jv-Latn .
+:terjemah_B144 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "sembilan"@id .
+:entry_B144 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B144 ; :memilikiTransliterasi :translit_B144 ; :memilikiTerjemahan :terjemah_B144 .
+
+:aksara_B145 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦭꦸꦤ"@jv-x-krama .
+:translit_B145 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "luna"@jv-Latn .
+:terjemah_B145 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "lunak"@id .
+:entry_B145 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B145 ; :memilikiTransliterasi :translit_B145 ; :memilikiTerjemahan :terjemah_B145 .
+
+:aksara_B146 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦺꦛ"@jv-x-krama .
+:translit_B146 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bêtha"@jv-Latn .
+:terjemah_B146 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "senang"@id .
+:entry_B146 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B146 ; :memilikiTransliterasi :translit_B146 ; :memilikiTerjemahan :terjemah_B146 .
+
+:aksara_B147 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦺꦤꦺ"@jv-x-krama .
+:translit_B147 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mênê"@jv-Latn .
+:terjemah_B147 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "beri"@id .
+:entry_B147 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B147 ; :memilikiTransliterasi :translit_B147 ; :memilikiTerjemahan :terjemah_B147 .
+
+:aksara_B148 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦶꦢꦸ"@jv-x-krama .
+:translit_B148 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hidu"@jv-Latn .
+:terjemah_B148 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hidup"@id .
+:entry_B148 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B148 ; :memilikiTransliterasi :translit_B148 ; :memilikiTerjemahan :terjemah_B148 .
+
+:aksara_B149 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦤꦸꦁ"@jv-x-krama .
+:translit_B149 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "nung"@jv-Latn .
+:terjemah_B149 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tunggu"@id .
+:entry_B149 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B149 ; :memilikiTransliterasi :translit_B149 ; :memilikiTerjemahan :terjemah_B149 .
+
+:aksara_B150 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦸꦤ"@jv-x-krama .
+:translit_B150 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wuna"@jv-Latn .
+:terjemah_B150 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hutan"@id .
+:entry_B150 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B150 ; :memilikiTransliterasi :translit_B150 ; :memilikiTerjemahan :terjemah_B150 .
+
+:aksara_B151 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦸꦮ"@jv-x-krama .
+:translit_B151 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "buwà"@jv-Latn .
+:terjemah_B151 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "buah"@id .
+:entry_B151 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B151 ; :memilikiTransliterasi :translit_B151 ; :memilikiTerjemahan :terjemah_B151 .
+
+:aksara_B152 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦺꦴꦩ"@jv-x-krama .
+:translit_B152 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "joma"@jv-Latn .
+:terjemah_B152 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "teman"@id .
+:entry_B152 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B152 ; :memilikiTransliterasi :translit_B152 ; :memilikiTerjemahan :terjemah_B152 .
+
+:aksara_B153 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦕꦸꦠ"@jv-x-krama .
+:translit_B153 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "cuta"@jv-Latn .
+:terjemah_B153 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "cerita"@id .
+:entry_B153 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B153 ; :memilikiTransliterasi :translit_B153 ; :memilikiTerjemahan :terjemah_B153 .
+
+:aksara_B154 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦠꦺꦤ꧀"@jv-x-krama .
+:translit_B154 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "tên"@jv-Latn .
+:terjemah_B154 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tenang"@id .
+:entry_B154 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B154 ; :memilikiTransliterasi :translit_B154 ; :memilikiTerjemahan :terjemah_B154 .
+
+:aksara_B155 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦺꦴꦤ"@jv-x-krama .
+:translit_B155 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pena"@jv-Latn .
+:terjemah_B155 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pena"@id .
+:entry_B155 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B155 ; :memilikiTransliterasi :translit_B155 ; :memilikiTerjemahan :terjemah_B155 .
+
+:aksara_B156 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦤꦺꦴꦩ"@jv-x-krama .
+:translit_B156 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "noma"@jv-Latn .
+:terjemah_B156 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "nama"@id .
+:entry_B156 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B156 ; :memilikiTransliterasi :translit_B156 ; :memilikiTerjemahan :terjemah_B156 .
+
+:aksara_B157 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦶꦠ"@jv-x-krama .
+:translit_B157 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wita"@jv-Latn .
+:terjemah_B157 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hadir"@id .
+:entry_B157 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B157 ; :memilikiTransliterasi :translit_B157 ; :memilikiTerjemahan :terjemah_B157 .
+
+:aksara_B158 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦕꦼꦤ"@jv-x-krama .
+:translit_B158 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "cena"@jv-Latn .
+:terjemah_B158 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "cinta"@id .
+:entry_B158 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B158 ; :memilikiTransliterasi :translit_B158 ; :memilikiTerjemahan :terjemah_B158 .
+
+:aksara_B159 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦶꦱ"@jv-x-krama .
+:translit_B159 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pisa"@jv-Latn .
+:terjemah_B159 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pisau"@id .
+:entry_B159 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B159 ; :memilikiTransliterasi :translit_B159 ; :memilikiTerjemahan :terjemah_B159 .
+
+:aksara_B160 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦼꦛ"@jv-x-krama .
+:translit_B160 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bétha"@jv-Latn .
+:terjemah_B160 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pasti"@id .
+:entry_B160 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B160 ; :memilikiTransliterasi :translit_B160 ; :memilikiTerjemahan :terjemah_B160 .
+
+:aksara_B161 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦼꦔ꧀"@jv-x-krama .
+:translit_B161 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mêng"@jv-Latn .
+:terjemah_B161 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "mengerti"@id .
+:entry_B161 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B161 ; :memilikiTransliterasi :translit_B161 ; :memilikiTerjemahan :terjemah_B161 .
+
+:aksara_B162 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦤꦸꦁ"@jv-x-krama .
+:translit_B162 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "nung"@jv-Latn .
+:terjemah_B162 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "menunggu"@id .
+:entry_B162 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B162 ; :memilikiTransliterasi :translit_B162 ; :memilikiTerjemahan :terjemah_B162 .
+
+:aksara_B163 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦺꦴꦫ"@jv-x-krama .
+:translit_B163 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "éra"@jv-Latn .
+:terjemah_B163 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "malu"@id .
+:entry_B163 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B163 ; :memilikiTransliterasi :translit_B163 ; :memilikiTerjemahan :terjemah_B163 .
+
+:aksara_B164 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦿꦺ"@jv-x-krama .
+:translit_B164 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kré"@jv-Latn .
+:terjemah_B164 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kritik"@id .
+:entry_B164 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B164 ; :memilikiTransliterasi :translit_B164 ; :memilikiTerjemahan :terjemah_B164 .
+
+:aksara_B165 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦺꦴꦤ"@jv-x-krama .
+:translit_B165 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jona"@jv-Latn .
+:terjemah_B165 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "zona"@id .
+:entry_B165 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B165 ; :memilikiTransliterasi :translit_B165 ; :memilikiTerjemahan :terjemah_B165 .
+
+:aksara_B166 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦠꦸꦤ"@jv-x-krama .
+:translit_B166 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "tuna"@jv-Latn .
+:terjemah_B166 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "rusak"@id .
+:entry_B166 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B166 ; :memilikiTransliterasi :translit_B166 ; :memilikiTerjemahan :terjemah_B166 .
+
+:aksara_B167 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦸꦛ"@jv-x-krama .
+:translit_B167 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "butha"@jv-Latn .
+:terjemah_B167 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "makhluk"@id .
+:entry_B167 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B167 ; :memilikiTransliterasi :translit_B167 ; :memilikiTerjemahan :terjemah_B167 .
+
+:aksara_B168 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦺꦤ"@jv-x-krama .
+:translit_B168 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kena"@jv-Latn .
+:terjemah_B168 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "terkena"@id .
+:entry_B168 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B168 ; :memilikiTransliterasi :translit_B168 ; :memilikiTerjemahan :terjemah_B168 .
+
+:aksara_B169 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦸꦔꦸ"@jv-x-krama .
+:translit_B169 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mungu"@jv-Latn .
+:terjemah_B169 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "naik"@id .
+:entry_B169 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B169 ; :memilikiTransliterasi :translit_B169 ; :memilikiTerjemahan :terjemah_B169 .
+
+:aksara_B170 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦶꦪ"@jv-x-krama .
+:translit_B170 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "biyà"@jv-Latn .
+:terjemah_B170 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "biaya"@id .
+:entry_B170 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B170 ; :memilikiTransliterasi :translit_B170 ; :memilikiTerjemahan :terjemah_B170 .
+
+:aksara_B171 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦶꦁ"@jv-x-krama .
+:translit_B171 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sing"@jv-Latn .
+:terjemah_B171 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tidak"@id .
+:entry_B171 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B171 ; :memilikiTransliterasi :translit_B171 ; :memilikiTerjemahan :terjemah_B171 .
+
+:aksara_B172 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦺꦴꦩ"@jv-x-krama .
+:translit_B172 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "doma"@jv-Latn .
+:terjemah_B172 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hewan"@id .
+:entry_B172 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B172 ; :memilikiTransliterasi :translit_B172 ; :memilikiTerjemahan :terjemah_B172 .
+
+:aksara_B173 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦒꦺꦴꦒ"@jv-x-krama .
+:translit_B173 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "goga"@jv-Latn .
+:terjemah_B173 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "keras"@id .
+:entry_B173 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B173 ; :memilikiTransliterasi :translit_B173 ; :memilikiTerjemahan :terjemah_B173 .
+
+:aksara_B174 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦼꦤ꧀"@jv-x-krama .
+:translit_B174 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jên"@jv-Latn .
+:terjemah_B174 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "senja"@id .
+:entry_B174 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B174 ; :memilikiTransliterasi :translit_B174 ; :memilikiTerjemahan :terjemah_B174 .
+
+:aksara_B175 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦺꦴꦧ"@jv-x-krama .
+:translit_B175 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "poba"@jv-Latn .
+:terjemah_B175 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "rusak"@id .
+:entry_B175 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B175 ; :memilikiTransliterasi :translit_B175 ; :memilikiTerjemahan :terjemah_B175 .
+
+:aksara_B176 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦼꦭ"@jv-x-krama .
+:translit_B176 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kela"@jv-Latn .
+:terjemah_B176 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "lewat"@id .
+:entry_B176 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B176 ; :memilikiTransliterasi :translit_B176 ; :memilikiTerjemahan :terjemah_B176 .
+
+:aksara_B177 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦠꦺꦏ"@jv-x-krama .
+:translit_B177 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "téka"@jv-Latn .
+:terjemah_B177 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "datang"@id .
+:entry_B177 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B177 ; :memilikiTransliterasi :translit_B177 ; :memilikiTerjemahan :terjemah_B177 .
+
+:aksara_B178 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦺꦏ꧀"@jv-x-krama .
+:translit_B178 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sêk"@jv-Latn .
+:terjemah_B178 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tunggu"@id .
+:entry_B178 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B178 ; :memilikiTransliterasi :translit_B178 ; :memilikiTerjemahan :terjemah_B178 .
+
+:aksara_B179 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦭꦺꦴꦧ"@jv-x-krama .
+:translit_B179 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "loba"@jv-Latn .
+:terjemah_B179 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "banyak"@id .
+:entry_B179 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B179 ; :memilikiTransliterasi :translit_B179 ; :memilikiTerjemahan :terjemah_B179 .
+
+:aksara_B180 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦸꦁ"@jv-x-krama .
+:translit_B180 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "dung"@jv-Latn .
+:terjemah_B180 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "dalam"@id .
+:entry_B180 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B180 ; :memilikiTransliterasi :translit_B180 ; :memilikiTerjemahan :terjemah_B180 .
+
+:aksara_B181 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦼꦁ"@jv-x-krama .
+:translit_B181 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wêng"@jv-Latn .
+:terjemah_B181 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "keluar"@id .
+:entry_B181 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B181 ; :memilikiTransliterasi :translit_B181 ; :memilikiTerjemahan :terjemah_B181 .
+
+:aksara_B182 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦼꦤ꧀"@jv-x-krama .
+:translit_B182 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mên"@jv-Latn .
+:terjemah_B182 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "anak"@id .
+:entry_B182 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B182 ; :memilikiTransliterasi :translit_B182 ; :memilikiTerjemahan :terjemah_B182 .
+
+:aksara_B183 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦺꦏ"@jv-x-krama .
+:translit_B183 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "péka"@jv-Latn .
+:terjemah_B183 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "peka"@id .
+:entry_B183 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B183 ; :memilikiTransliterasi :translit_B183 ; :memilikiTerjemahan :terjemah_B183 .
+
+:aksara_B184 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦸꦔ꧀"@jv-x-krama .
+:translit_B184 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "búng"@jv-Latn .
+:terjemah_B184 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bangkit"@id .
+:entry_B184 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B184 ; :memilikiTransliterasi :translit_B184 ; :memilikiTerjemahan :terjemah_B184 .
+
+:aksara_B185 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦒꦸꦤ꧀"@jv-x-krama .
+:translit_B185 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "gun"@jv-Latn .
+:terjemah_B185 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tahan"@id .
+:entry_B185 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B185 ; :memilikiTransliterasi :translit_B185 ; :memilikiTerjemahan :terjemah_B185 .
+
+:aksara_B186 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦸꦠꦸ"@jv-x-krama .
+:translit_B186 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kutu"@jv-Latn .
+:terjemah_B186 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "serangga"@id .
+:entry_B186 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B186 ; :memilikiTransliterasi :translit_B186 ; :memilikiTerjemahan :terjemah_B186 .
+
+:aksara_B187 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦺꦴꦮ"@jv-x-krama .
+:translit_B187 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "dowa"@jv-Latn .
+:terjemah_B187 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "jumlah"@id .
+:entry_B187 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B187 ; :memilikiTransliterasi :translit_B187 ; :memilikiTerjemahan :terjemah_B187 .
+
+:aksara_B188 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦶꦭ꧀"@jv-x-krama .
+:translit_B188 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jil"@jv-Latn .
+:terjemah_B188 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "segi"@id .
+:entry_B188 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B188 ; :memilikiTransliterasi :translit_B188 ; :memilikiTerjemahan :terjemah_B188 .
+
+:aksara_B189 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦼꦫ"@jv-x-krama .
+:translit_B189 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kêra"@jv-Latn .
+:terjemah_B189 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kera"@id .
+:entry_B189 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B189 ; :memilikiTransliterasi :translit_B189 ; :memilikiTerjemahan :terjemah_B189 .
+
+:aksara_B190 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦺꦛ꧀"@jv-x-krama .
+:translit_B190 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bêth"@jv-Latn .
+:terjemah_B190 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "diri"@id .
+:entry_B190 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B190 ; :memilikiTransliterasi :translit_B190 ; :memilikiTerjemahan :terjemah_B190 .
+
+:aksara_B191 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦺꦠ"@jv-x-krama .
+:translit_B191 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jéta"@jv-Latn .
+:terjemah_B191 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "jadi"@id .
+:entry_B191 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B191 ; :memilikiTransliterasi :translit_B191 ; :memilikiTerjemahan :terjemah_B191 .
+
+:aksara_B192 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦼꦁꦒ꧀"@jv-x-krama .
+:translit_B192 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wêngg"@jv-Latn .
+:terjemah_B192 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "keluar"@id .
+:entry_B192 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B192 ; :memilikiTransliterasi :translit_B192 ; :memilikiTerjemahan :terjemah_B192 .
+
+:aksara_B193 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦭꦼꦫ"@jv-x-krama .
+:translit_B193 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "lêr"@jv-Latn .
+:terjemah_B193 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "istirahat"@id .
+:entry_B193 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B193 ; :memilikiTransliterasi :translit_B193 ; :memilikiTerjemahan :terjemah_B193 .
+
+:aksara_B194 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦺꦫ꧀"@jv-x-krama .
+:translit_B194 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bêr"@jv-Latn .
+:terjemah_B194 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "berani"@id .
+:entry_B194 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B194 ; :memilikiTransliterasi :translit_B194 ; :memilikiTerjemahan :terjemah_B194 .
+
+:aksara_B195 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦺꦴꦠ꧀"@jv-x-krama .
+:translit_B195 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "koth"@jv-Latn .
+:terjemah_B195 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kotak"@id .
+:entry_B195 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B195 ; :memilikiTransliterasi :translit_B195 ; :memilikiTerjemahan :terjemah_B195 .
+
+:aksara_B196 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦶꦭ"@jv-x-krama .
+:translit_B196 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wila"@jv-Latn .
+:terjemah_B196 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "giliran"@id .
+:entry_B196 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B196 ; :memilikiTransliterasi :translit_B196 ; :memilikiTerjemahan :terjemah_B196 .
+
+:aksara_B197 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦺꦴꦤ꧀"@jv-x-krama .
+:translit_B197 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pôn"@jv-Latn .
+:terjemah_B197 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "penunjuk"@id .
+:entry_B197 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B197 ; :memilikiTransliterasi :translit_B197 ; :memilikiTerjemahan :terjemah_B197 .
+
+:aksara_B198 a :TeksAksara ; :jumlahKarakter 6 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦸꦔ꧀ꦒ꧀"@jv-x-krama .
+:translit_B198 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "búngg"@jv-Latn .
+:terjemah_B198 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "melompat"@id .
+:entry_B198 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B198 ; :memilikiTransliterasi :translit_B198 ; :memilikiTerjemahan :terjemah_B198 .
+
+:aksara_B199 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦸꦭ꧀"@jv-x-krama .
+:translit_B199 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sul"@jv-Latn .
+:terjemah_B199 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "sunyi"@id .
+:entry_B199 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B199 ; :memilikiTransliterasi :translit_B199 ; :memilikiTerjemahan :terjemah_B199 .
+
+:aksara_B200 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦺꦴꦥ"@jv-x-krama .
+:translit_B200 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "popa"@jv-Latn .
+:terjemah_B200 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "gugur"@id .
+:entry_B200 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B200 ; :memilikiTransliterasi :translit_B200 ; :memilikiTerjemahan :terjemah_B200 .
+
+:aksara_B201 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦸꦤ"@jv-x-krama .
+:translit_B201 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "duna"@jv-Latn .
+:terjemah_B201 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "dunia"@id .
+:entry_B201 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B201 ; :memilikiTransliterasi :translit_B201 ; :memilikiTerjemahan :terjemah_B201 .
+
+:aksara_B202 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦸꦁ"@jv-x-krama .
+:translit_B202 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pung"@jv-Latn .
+:terjemah_B202 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "ambil"@id .
+:entry_B202 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B202 ; :memilikiTransliterasi :translit_B202 ; :memilikiTerjemahan :terjemah_B202 .
+
+:aksara_B203 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦼꦠ"@jv-x-krama .
+:translit_B203 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kêta"@jv-Latn .
+:terjemah_B203 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pintar"@id .
+:entry_B203 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B203 ; :memilikiTransliterasi :translit_B203 ; :memilikiTerjemahan :terjemah_B203 .
+
+:aksara_B204 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦸꦱ"@jv-x-krama .
+:translit_B204 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "busa"@jv-Latn .
+:terjemah_B204 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "busa"@id .
+:entry_B204 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B204 ; :memilikiTransliterasi :translit_B204 ; :memilikiTerjemahan :terjemah_B204 .
+
+:aksara_B205 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦸꦤ"@jv-x-krama .
+:translit_B205 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "juna"@jv-Latn .
+:terjemah_B205 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "perang"@id .
+:entry_B205 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B205 ; :memilikiTransliterasi :translit_B205 ; :memilikiTerjemahan :terjemah_B205 .
+
+:aksara_B206 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦸꦭ"@jv-x-krama .
+:translit_B206 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mula"@jv-Latn .
+:terjemah_B206 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "awal"@id .
+:entry_B206 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B206 ; :memilikiTransliterasi :translit_B206 ; :memilikiTerjemahan :terjemah_B206 .
+
+:aksara_B207 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦤꦸꦱ"@jv-x-krama .
+:translit_B207 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "nusa"@jv-Latn .
+:terjemah_B207 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pulau"@id .
+:entry_B207 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B207 ; :memilikiTransliterasi :translit_B207 ; :memilikiTerjemahan :terjemah_B207 .
+
+:aksara_B208 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦼꦠ꧀"@jv-x-krama .
+:translit_B208 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sêt"@jv-Latn .
+:terjemah_B208 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bersih"@id .
+:entry_B208 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B208 ; :memilikiTransliterasi :translit_B208 ; :memilikiTerjemahan :terjemah_B208 .
+
+:aksara_B209 a :TeksAksara ; :jumlahKarakter 6 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦶꦤ꧀ꦠꦺ"@jv-x-krama .
+:translit_B209 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hinté"@jv-Latn .
+:terjemah_B209 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pandangan"@id .
+:entry_B209 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B209 ; :memilikiTransliterasi :translit_B209 ; :memilikiTerjemahan :terjemah_B209 .
+
+:aksara_B210 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦼꦤ"@jv-x-krama .
+:translit_B210 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bêna"@jv-Latn .
+:terjemah_B210 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "benar"@id .
+:entry_B210 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B210 ; :memilikiTransliterasi :translit_B210 ; :memilikiTerjemahan :terjemah_B210 .
+
+:aksara_B211 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦸꦩ"@jv-x-krama .
+:translit_B211 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kuma"@jv-Latn .
+:terjemah_B211 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kenapa"@id .
+:entry_B211 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B211 ; :memilikiTransliterasi :translit_B211 ; :memilikiTerjemahan :terjemah_B211 .
+
+:aksara_B212 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦺꦴꦠ"@jv-x-krama .
+:translit_B212 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wota"@jv-Latn .
+:terjemah_B212 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "air"@id .
+:entry_B212 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B212 ; :memilikiTransliterasi :translit_B212 ; :memilikiTerjemahan :terjemah_B212 .
+
+:aksara_B213 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦸꦱ꧀"@jv-x-krama .
+:translit_B213 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hus"@jv-Latn .
+:terjemah_B213 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "diam"@id .
+:entry_B213 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B213 ; :memilikiTransliterasi :translit_B213 ; :memilikiTerjemahan :terjemah_B213 .
+
+:aksara_B214 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦺꦴꦭ"@jv-x-krama .
+:translit_B214 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "pola"@jv-Latn .
+:terjemah_B214 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pola"@id .
+:entry_B214 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B214 ; :memilikiTransliterasi :translit_B214 ; :memilikiTerjemahan :terjemah_B214 .
+
+:aksara_B215 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦸꦤ꧀"@jv-x-krama .
+:translit_B215 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "dun"@jv-Latn .
+:terjemah_B215 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "gelap"@id .
+:entry_B215 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B215 ; :memilikiTransliterasi :translit_B215 ; :memilikiTerjemahan :terjemah_B215 .
+
+:aksara_B216 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦒꦺꦠ꧀"@jv-x-krama .
+:translit_B216 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "gêt"@jv-Latn .
+:terjemah_B216 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kuat"@id .
+:entry_B216 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B216 ; :memilikiTransliterasi :translit_B216 ; :memilikiTerjemahan :terjemah_B216 .
+
+:aksara_B217 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦸꦁ"@jv-x-krama .
+:translit_B217 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wung"@jv-Latn .
+:terjemah_B217 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "terbang"@id .
+:entry_B217 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B217 ; :memilikiTransliterasi :translit_B217 ; :memilikiTerjemahan :terjemah_B217 .
+
+:aksara_B218 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦫꦸꦔ"@jv-x-krama .
+:translit_B218 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "runga"@jv-Latn .
+:terjemah_B218 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "dengar"@id .
+:entry_B218 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B218 ; :memilikiTransliterasi :translit_B218 ; :memilikiTerjemahan :terjemah_B218 .
+
+:aksara_B219 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦸꦭ"@jv-x-krama .
+:translit_B219 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hula"@jv-Latn .
+:terjemah_B219 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "depan"@id .
+:entry_B219 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B219 ; :memilikiTransliterasi :translit_B219 ; :memilikiTerjemahan :terjemah_B219 .
+
+:aksara_B220 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦺꦴꦤ꧀"@jv-x-krama .
+:translit_B220 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wôn"@jv-Latn .
+:terjemah_B220 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hutan"@id .
+:entry_B220 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B220 ; :memilikiTransliterasi :translit_B220 ; :memilikiTerjemahan :terjemah_B220 .
+
+:aksara_B221 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦸꦠ"@jv-x-krama .
+:translit_B221 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "duta"@jv-Latn .
+:terjemah_B221 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "utusan"@id .
+:entry_B221 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B221 ; :memilikiTransliterasi :translit_B221 ; :memilikiTerjemahan :terjemah_B221 .
+
+:aksara_B222 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦺꦴꦫ"@jv-x-krama .
+:translit_B222 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jora"@jv-Latn .
+:terjemah_B222 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "musuh"@id .
+:entry_B222 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B222 ; :memilikiTransliterasi :translit_B222 ; :memilikiTerjemahan :terjemah_B222 .
+
+:aksara_B223 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦶꦤ"@jv-x-krama .
+:translit_B223 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mina"@jv-Latn .
+:terjemah_B223 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "ikan"@id .
+:entry_B223 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B223 ; :memilikiTransliterasi :translit_B223 ; :memilikiTerjemahan :terjemah_B223 .
+
+:aksara_B224 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦺꦴꦭ"@jv-x-krama .
+:translit_B224 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sora"@jv-Latn .
+:terjemah_B224 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "suara"@id .
+:entry_B224 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B224 ; :memilikiTransliterasi :translit_B224 ; :memilikiTerjemahan :terjemah_B224 .
+
+:aksara_B225 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦼꦫ꧀"@jv-x-krama .
+:translit_B225 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kêr"@jv-Latn .
+:terjemah_B225 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "keras"@id .
+:entry_B225 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B225 ; :memilikiTransliterasi :translit_B225 ; :memilikiTerjemahan :terjemah_B225 .
+
+:aksara_B226 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦶꦒ"@jv-x-krama .
+:translit_B226 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "piga"@jv-Latn .
+:terjemah_B226 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "berapa"@id .
+:entry_B226 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B226 ; :memilikiTransliterasi :translit_B226 ; :memilikiTerjemahan :terjemah_B226 .
+
+:aksara_B227 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦶꦢ"@jv-x-krama .
+:translit_B227 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "hida"@jv-Latn .
+:terjemah_B227 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hidup"@id .
+:entry_B227 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B227 ; :memilikiTransliterasi :translit_B227 ; :memilikiTerjemahan :terjemah_B227 .
+
+:aksara_B228 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦸꦛ"@jv-x-krama .
+:translit_B228 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "butha"@jv-Latn .
+:terjemah_B228 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "raksasa"@id .
+:entry_B228 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B228 ; :memilikiTransliterasi :translit_B228 ; :memilikiTerjemahan :terjemah_B228 .
+
+:aksara_B229 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦺꦴꦠ"@jv-x-krama .
+:translit_B229 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "éta"@jv-Latn .
+:terjemah_B229 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "itu"@id .
+:entry_B229 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B229 ; :memilikiTransliterasi :translit_B229 ; :memilikiTerjemahan :terjemah_B229 .
+
+:aksara_B230 a :TeksAksara ; :jumlahKarakter 6 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦺꦴꦠꦺꦴ"@jv-x-krama .
+:translit_B230 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wété"@jv-Latn .
+:terjemah_B230 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "basah"@id .
+:entry_B230 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B230 ; :memilikiTransliterasi :translit_B230 ; :memilikiTerjemahan :terjemah_B230 .
+
+:aksara_B231 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦺꦴꦧ꧀"@jv-x-krama .
+:translit_B231 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "êb"@jv-Latn .
+:terjemah_B231 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "penolakan"@id .
+:entry_B231 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B231 ; :memilikiTransliterasi :translit_B231 ; :memilikiTerjemahan :terjemah_B231 .
+
+:aksara_B232 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦶꦤꦺ"@jv-x-krama .
+:translit_B232 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kiné"@jv-Latn .
+:terjemah_B232 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "pernah"@id .
+:entry_B232 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B232 ; :memilikiTransliterasi :translit_B232 ; :memilikiTerjemahan :terjemah_B232 .
+
+:aksara_B233 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦲꦺꦴꦤ꧀"@jv-x-krama .
+:translit_B233 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "ên"@jv-Latn .
+:terjemah_B233 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "di"@id .
+:entry_B233 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B233 ; :memilikiTransliterasi :translit_B233 ; :memilikiTerjemahan :terjemah_B233 .
+
+:aksara_B234 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦮꦺꦴꦠ꧀"@jv-x-krama .
+:translit_B234 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "wot"@jv-Latn .
+:terjemah_B234 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "jalan"@id .
+:entry_B234 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B234 ; :memilikiTransliterasi :translit_B234 ; :memilikiTerjemahan :terjemah_B234 .
+
+:aksara_B235 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦶꦭ꧀"@jv-x-krama .
+:translit_B235 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "sil"@jv-Latn .
+:terjemah_B235 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tutup"@id .
+:entry_B235 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B235 ; :memilikiTransliterasi :translit_B235 ; :memilikiTerjemahan :terjemah_B235 .
+
+:aksara_B236 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦺꦴꦮ"@jv-x-krama .
+:translit_B236 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "powo"@jv-Latn .
+:terjemah_B236 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "hewan"@id .
+:entry_B236 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B236 ; :memilikiTransliterasi :translit_B236 ; :memilikiTerjemahan :terjemah_B236 .
+
+:aksara_B237 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦼꦁ"@jv-x-krama .
+:translit_B237 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bêng"@jv-Latn .
+:terjemah_B237 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "barat"@id .
+:entry_B237 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B237 ; :memilikiTransliterasi :translit_B237 ; :memilikiTerjemahan :terjemah_B237 .
+
+:aksara_B238 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦱꦶꦠ"@jv-x-krama .
+:translit_B238 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "site"@jv-Latn .
+:terjemah_B238 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tetap"@id .
+:entry_B238 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B238 ; :memilikiTransliterasi :translit_B238 ; :memilikiTerjemahan :terjemah_B238 .
+
+:aksara_B239 a :TeksAksara ; :jumlahKarakter 5 ; lexinfo:script :AksaraKawi ; rdf:value "ꦤꦸꦁꦒ꧀"@jv-x-krama .
+:translit_B239 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "nungg"@jv-Latn .
+:terjemah_B239 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "menanti"@id .
+:entry_B239 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B239 ; :memilikiTransliterasi :translit_B239 ; :memilikiTerjemahan :terjemah_B239 .
+
+:aksara_B240 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦶꦠꦸ"@jv-x-krama .
+:translit_B240 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kitu"@jv-Latn .
+:terjemah_B240 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "kita"@id .
+:entry_B240 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B240 ; :memilikiTransliterasi :translit_B240 ; :memilikiTerjemahan :terjemah_B240 .
+
+:aksara_B241 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦼꦁ"@jv-x-krama .
+:translit_B241 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jêng"@jv-Latn .
+:terjemah_B241 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "naik"@id .
+:entry_B241 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B241 ; :memilikiTransliterasi :translit_B241 ; :memilikiTerjemahan :terjemah_B241 .
+
+:aksara_B242 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦶꦁ"@jv-x-krama .
+:translit_B242 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kêng"@jv-Latn .
+:terjemah_B242 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "keinginan"@id .
+:entry_B242 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B242 ; :memilikiTransliterasi :translit_B242 ; :memilikiTerjemahan :terjemah_B242 .
+
+:aksara_B243 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦢꦶꦭ"@jv-x-krama .
+:translit_B243 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "dila"@jv-Latn .
+:terjemah_B243 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "lidah"@id .
+:entry_B243 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B243 ; :memilikiTransliterasi :translit_B243 ; :memilikiTerjemahan :terjemah_B243 .
+
+:aksara_B244 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦺꦴꦤ"@jv-x-krama .
+:translit_B244 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bôna"@jv-Latn .
+:terjemah_B244 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "besar"@id .
+:entry_B244 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B244 ; :memilikiTransliterasi :translit_B244 ; :memilikiTerjemahan :terjemah_B244 .
+
+:aksara_B245 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦥꦺꦴꦱ"@jv-x-krama .
+:translit_B245 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "posa"@jv-Latn .
+:terjemah_B245 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "puasa"@id .
+:entry_B245 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B245 ; :memilikiTransliterasi :translit_B245 ; :memilikiTerjemahan :terjemah_B245 .
+
+:aksara_B246 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦗꦸꦤ꧀"@jv-x-krama .
+:translit_B246 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "jun"@jv-Latn .
+:terjemah_B246 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "turun"@id .
+:entry_B246 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B246 ; :memilikiTransliterasi :translit_B246 ; :memilikiTerjemahan :terjemah_B246 .
+
+:aksara_B247 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦼꦤ꧀"@jv-x-krama .
+:translit_B247 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kên"@jv-Latn .
+:terjemah_B247 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "tahu"@id .
+:entry_B247 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B247 ; :memilikiTransliterasi :translit_B247 ; :memilikiTerjemahan :terjemah_B247 .
+
+:aksara_B248 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦩꦸꦤ꧀"@jv-x-krama .
+:translit_B248 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "mung"@jv-Latn .
+:terjemah_B248 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bermula"@id .
+:entry_B248 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B248 ; :memilikiTransliterasi :translit_B248 ; :memilikiTerjemahan :terjemah_B248 .
+
+:aksara_B249 a :TeksAksara ; :jumlahKarakter 4 ; lexinfo:script :AksaraKawi ; rdf:value "ꦏꦶꦠ꧀"@jv-x-krama .
+:translit_B249 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "kit"@jv-Latn .
+:terjemah_B249 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "ikut"@id .
+:entry_B249 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B249 ; :memilikiTransliterasi :translit_B249 ; :memilikiTerjemahan :terjemah_B249 .
+
+:aksara_B250 a :TeksAksara ; :jumlahKarakter 3 ; lexinfo:script :AksaraKawi ; rdf:value "ꦧꦶꦏ"@jv-x-krama .
+:translit_B250 a :Transliterasi ; :menggunakanAturan "Aturan Transliterasi Kawi-Latin 2020" ; rdf:value "bika"@jv-Latn .
+:terjemah_B250 a :Terjemahan ; :dariBahasa "jv" ; :keBahasa "id" ; rdf:value "bijak"@id .
+:entry_B250 a :BarisPrasasti ; :memilikiTeksAksara :aksara_B250 ; :memilikiTransliterasi :translit_B250 ; :memilikiTerjemahan :terjemah_B250 .
