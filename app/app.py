@@ -3,7 +3,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
 
 # Konfigurasi endpoint Jena Fuseki
-FUSEKI_ENDPOINT = "http://localhost:3030/pratisentana1/sparql"
+FUSEKI_ENDPOINT = "http://34.34.221.164:3030/pratisentana1/sparql"
 
 st.set_page_config(page_title="Kamus Aksara Kawi", layout="wide")
 st.title("📖 Kamus Aksara Kawi (Terhubung ke Jena Fuseki)")
