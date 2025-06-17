@@ -16,6 +16,8 @@ def query_fuseki(sparql_query):
     results = sparql.query().convert()
     return results["results"]["bindings"]
 
+if "selected_items" not in st.session_state:
+    st.session_state["selected_items"] = []
 
 # Tampilan keyboard aksara kawi
 with st.expander("⌨️ Keyboard Aksara Kawi Lengkap", expanded=True):
@@ -93,52 +95,83 @@ st.subheader("🔡 Terjemahkan Aksara Kawi ↔ Latin")
 input_kawi = st.text_input("Masukkan Aksara Kawi", key="input_kawi")
 input_latin = st.text_input("Masukkan Kata Latin (misal: Ka)")
 
+def load_all_items():
+    sparql_all = """
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX : <http://pratisentana.org/ontology#>
+
+        SELECT ?kawi ?latin WHERE {
+            ?entry :memilikiTeksAksara ?aksara ;
+                :memilikiTerjemahan ?terjemahan .
+            ?aksara rdf:value ?kawi .
+            ?terjemahan rdf:value ?latin .
+        }
+    """
+    results = query_fuseki(sparql_all)
+    st.session_state["selected_items"] = results
+
+# Load once
+if not input_kawi and not input_latin:
+    load_all_items()
+
 # Terjemahkan dari Aksara Kawi
 if input_kawi:
     sparql = f"""
-      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-      PREFIX : <http://pratisentana.org/ontology#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX : <http://pratisentana.org/ontology#>
 
-      SELECT ?latin WHERE {{
-        # Find the specific Kawi text node based on the input string.
-        # Note: The input Kawi string must be an exact match.
-        ?kawiText rdf:value "{input_kawi}"@jv-x-krama .
+        SELECT ?latin ?kawiVal WHERE {{
+            ?kawiText rdf:value ?kawiVal .
+            FILTER(CONTAINS(str(?kawiVal), "{input_kawi}"))
 
-        # Use the central entry to find the connection
-        ?entry :memilikiTeksAksara ?kawiText ;
-              :memilikiTerjemahan ?translit .
-
-        # Get the value from the correctly linked transliteration node
-        ?translit rdf:value ?latin .
-      }}
-      """
+            ?entry :memilikiTeksAksara ?kawiText ;
+                :memilikiTerjemahan ?translit .
+            ?translit rdf:value ?latin .
+        }}
+    """
     results = query_fuseki(sparql)
     if results:
-        st.success(f"Terjemahan: {results[0]['latin']['value']}")
+        st.session_state["selected_items"] = results
     else:
         st.warning("Tidak ditemukan terjemahan untuk aksara tersebut.")
 
 # Terjemahkan dari Latin ke Aksara
 elif input_latin:
     sparql = f"""
-      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-      PREFIX : <http://pratisentana.org/ontology#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX : <http://pratisentana.org/ontology#>
 
-      SELECT ?kawi WHERE {{
-        # Find the central entry that connects the different text forms
-        ?entry :memilikiTerjemahan ?terjemah ;
-              :memilikiTeksAksara ?kawiText .
+        SELECT ?kawi WHERE {{
+            ?entry :memilikiTerjemahan ?terjemah ;
+                    :memilikiTeksAksara ?kawiText .
 
-        # Filter to find the entry where the Indonesian translation is "{input_latin}"
-        ?terjemah rdf:value ?indonesianValue .
-        FILTER(str(?indonesianValue) = "{input_latin}")
+            ?terjemah rdf:value ?indonesianValue .
+            FILTER(CONTAINS(LCASE(str(?indonesianValue)), LCASE("{input_latin}")))
 
-        # Get the corresponding Kawi script from that same entry
-        ?kawiText rdf:value ?kawi .
-      }}
-      """
+            ?kawiText rdf:value ?kawi .
+        }}
+    """
     results = query_fuseki(sparql)
     if results:
-        st.success(f"Aksara Kawi: {results[0]['kawi']['value']}")
+        st.session_state["selected_items"] = results
     else:
         st.warning("Tidak ditemukan aksara untuk arti tersebut.")
+        
+if st.button("🔄 Tampilkan Semua Entri"):
+    load_all_items()
+
+st.subheader("📋 Hasil Pencarian / Semua Data")
+
+results_display = st.session_state.get("selected_items", [])
+
+if results_display:
+    df = pd.DataFrame([
+        {
+            "Aksara Kawi": r.get("kawi", {}).get("value", r.get("kawiVal", {}).get("value", "-")),
+            "Latin": r.get("latin", {}).get("value", "-")
+        }
+        for r in results_display
+    ])
+    st.dataframe(df, use_container_width=True)
+else:
+    st.info("Tidak ada data yang ditampilkan.")
