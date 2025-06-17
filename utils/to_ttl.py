@@ -1,50 +1,45 @@
 import csv
-from rdflib import Graph, Namespace, Literal
-from rdflib.namespace import RDF, XSD
 
-# Namespace
-BASE = Namespace("http://pratisentana.org/ontology#")
-RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
-RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
-XSD = Namespace("http://www.w3.org/2001/XMLSchema#")
-LEXINFO = Namespace("http://www.lexinfo.net/ontology/2.0/lexinfo#")
-DCTERMS = Namespace("http://purl.org/dc/terms/")
+prefixes = """@prefix : <http://pratisentana.org/ontology#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+"""
 
-g = Graph()
-g.bind("", BASE)
-g.bind("rdf", RDF)
-g.bind("rdfs", RDFS)
-g.bind("xsd", XSD)
-g.bind("lexinfo", LEXINFO)
-g.bind("dcterms", DCTERMS)
+def make_ttl_entry(row):
+    baris_id = row['baris_id']
+    aksara = row['teks_aksara']
+    translit = row['transliterasi']
+    terjemah = row['terjemahan']
 
-with open("Prasasti_Pratistentana1_aksara_terisi.csv", newline='', encoding='utf-8') as csvfile:
-    reader = csv.DictReader(csvfile, delimiter=';')
-    print("Kolom terdeteksi:", reader.fieldnames)  # <--- Debug line
+    ttl = []
 
-    for row in reader:
-        baris_id = row["baris_id"].strip()
+    # Teks Aksara
+    ttl.append(f":aksara_{baris_id} a :TeksAksara ; :jumlahKarakter {len(aksara)} ; "
+                f"lexinfo:script :AksaraKawi ; rdf:value \"{aksara}\"@jv-x-krama .")
 
-        # Aksara asli
-        aksara_uri = BASE[f"aksara_{baris_id}"]
-        g.add((aksara_uri, RDF.type, BASE.TeksAksara))
-        g.add((aksara_uri, RDF.value, Literal(row["teks_aksara"], lang="jv-x-krama")))
-        g.add((aksara_uri, LEXINFO.script, BASE.AksaraKawi))
-        g.add((aksara_uri, BASE.jumlahKarakter, Literal(len(row["teks_aksara"]), datatype=XSD.integer)))
+    # Transliterasi
+    ttl.append(f":translit_{baris_id} a :Transliterasi ; :menggunakanAturan \"Aturan Transliterasi Kawi-Latin 2020\" ; "
+                f"rdf:value \"{translit}\"@jv-Latn .")
 
-        # Transliteration
-        translit_uri = BASE[f"translit_{baris_id}"]
-        g.add((translit_uri, RDF.type, BASE.Transliterasi))
-        g.add((translit_uri, RDF.value, Literal(row["transliterasi"], lang="jv-Latn")))
-        g.add((translit_uri, BASE.menggunakanAturan, Literal("Aturan Transliterasi Kawi-Latin 2020")))
+    # Terjemahan
+    ttl.append(f":terjemah_{baris_id} a :Terjemahan ; :dariBahasa \"jv\" ; :keBahasa \"id\" ; "
+                f"rdf:value \"{terjemah}\"@id .")
 
-        # Terjemahan
-        terjemah_uri = BASE[f"terjemah_{baris_id}"]
-        g.add((terjemah_uri, RDF.type, BASE.Terjemahan))
-        g.add((terjemah_uri, RDF.value, Literal(row["terjemahan"], lang="id")))
-        g.add((terjemah_uri, BASE.keBahasa, Literal("id")))
-        g.add((terjemah_uri, BASE.dariBahasa, Literal("jv")))
+    # Entry Prasasti
+    ttl.append(f":entry_{baris_id} a :BarisPrasasti ; :memilikiTeksAksara :aksara_{baris_id} ; "
+                f":memilikiTransliterasi :translit_{baris_id} ; :memilikiTerjemahan :terjemah_{baris_id} .")
 
-# Simpan RDF
-g.serialize(destination="pratisentana1.ttl", format="turtle")
-print("RDF instance berhasil dibuat untuk aksara, transliterasi, dan terjemahan.")
+    return "\n".join(ttl)
+
+def convert_csv_to_ttl(csv_path, output_path):
+    with open(csv_path, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=';')
+        entries = [make_ttl_entry(row) for row in reader]
+
+    with open(output_path, 'w', encoding='utf-8') as ttlfile:
+        ttlfile.write(prefixes + "\n\n")
+        ttlfile.write("\n\n".join(entries))
+
+# Contoh penggunaan
+convert_csv_to_ttl('../data/Prasasti_Pratistentana1_aksara_terisi_FIXED.csv', '../data/pratisentana1.ttl')
