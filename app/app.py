@@ -92,7 +92,7 @@ with st.expander("⌨️ Keyboard Aksara Kawi Lengkap", expanded=True):
 
 # Input dari pengguna
 st.subheader("🔡 Terjemahkan Aksara Kawi ↔ Latin")
-input_kawi = st.text_input("Masukkan Aksara Kawi", key="input_kawi")
+input_kawi = st.text_input("Masukkan Aksara Kawi", key="input_kawi", disabled=True)
 input_latin = st.text_input("Masukkan Kata Latin (misal: Ka)")
 
 def load_all_items():
@@ -100,11 +100,20 @@ def load_all_items():
         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         PREFIX : <http://pratisentana.org/ontology#>
 
-        SELECT ?kawi ?latin WHERE {
-            ?entry :memilikiTeksAksara ?aksara ;
-                :memilikiTerjemahan ?terjemahan .
+        SELECT ?kawi ?translit ?terjemahan WHERE {
+            ?entry a :BarisPrasasti ;
+                  :memilikiTeksAksara ?aksara ;
+                  :memilikiTransliterasi ?translitNode ;
+                  :memilikiTerjemahan ?terjemahanNode .
+
             ?aksara rdf:value ?kawi .
-            ?terjemahan rdf:value ?latin .
+            FILTER (lang(?kawi) = "jv-x-krama")
+
+            ?translitNode rdf:value ?translit .
+            FILTER (lang(?translit) = "jv-Latn")
+
+            ?terjemahanNode rdf:value ?terjemahan .
+            FILTER (lang(?terjemahan) = "id")
         }
     """
     results = query_fuseki(sparql_all)
@@ -120,13 +129,20 @@ if input_kawi:
         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         PREFIX : <http://pratisentana.org/ontology#>
 
-        SELECT ?latin ?kawiVal WHERE {{
-            ?kawiText rdf:value ?kawiVal .
-            FILTER(CONTAINS(str(?kawiVal), "{input_kawi}"))
+        SELECT ?kawi ?translit ?terjemahan WHERE {{
+            ?entry a :BarisPrasasti ;
+                   :memilikiTeksAksara ?aksara ;
+                   :memilikiTransliterasi ?translitNode ;
+                   :memilikiTerjemahan ?terjemahanNode .
 
-            ?entry :memilikiTeksAksara ?kawiText ;
-                :memilikiTerjemahan ?translit .
-            ?translit rdf:value ?latin .
+            ?aksara rdf:value ?kawi .
+            FILTER (lang(?kawi) = "jv-x-krama" && CONTAINS(str(?kawi), "{input_kawi}"))
+
+            ?translitNode rdf:value ?translit .
+            FILTER (lang(?translit) = "jv-Latn")
+
+            ?terjemahanNode rdf:value ?terjemahan .
+            FILTER (lang(?terjemahan) = "id")
         }}
     """
     results = query_fuseki(sparql)
@@ -141,14 +157,20 @@ elif input_latin:
         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         PREFIX : <http://pratisentana.org/ontology#>
 
-        SELECT ?kawi WHERE {{
-            ?entry :memilikiTerjemahan ?terjemah ;
-                    :memilikiTeksAksara ?kawiText .
+        SELECT ?kawi ?translit ?terjemahan WHERE {{
+            ?entry a :BarisPrasasti ;
+                   :memilikiTeksAksara ?aksara ;
+                   :memilikiTransliterasi ?translitNode ;
+                   :memilikiTerjemahan ?terjemahanNode .
 
-            ?terjemah rdf:value ?indonesianValue .
-            FILTER(CONTAINS(LCASE(str(?indonesianValue)), LCASE("{input_latin}")))
+            ?aksara rdf:value ?kawi .
+            FILTER (lang(?kawi) = "jv-x-krama")
 
-            ?kawiText rdf:value ?kawi .
+            ?translitNode rdf:value ?translit .
+            FILTER (lang(?translit) = "jv-Latn")
+
+            ?terjemahanNode rdf:value ?terjemahan .
+            FILTER (lang(?terjemahan) = "id" && LCASE(str(?terjemahan)) = LCASE("{input_latin}"))
         }}
     """
     results = query_fuseki(sparql)
@@ -167,11 +189,12 @@ results_display = st.session_state.get("selected_items", [])
 if results_display:
     df = pd.DataFrame([
         {
-            "Aksara Kawi": r.get("kawi", {}).get("value", r.get("kawiVal", {}).get("value", "-")),
-            "Latin": r.get("latin", {}).get("value", "-")
+            "Aksara Kawi": r.get("kawi", {}).get("value", "-"),
+            "Transliterasi": r.get("translit", {}).get("value", "-"),
+            "Terjemahan": r.get("terjemahan", {}).get("value", "-")
         }
         for r in results_display
     ])
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, use_container_width=True, hide_index=True)
 else:
     st.info("Tidak ada data yang ditampilkan.")
