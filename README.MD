@@ -2,6 +2,11 @@
 
 This tutorial will guide you through the entire process of running the Kawi Dictionary App, from setting up the SPARQL database server to running the web application with Streamlit.
 
+### **No Installation Option**
+This application is fully hosted with a fuseki-server in Google Cloud VM Instance.
+Just visit the [kamus-aksara-kawi.streamlit.app](https://kamus-aksara-kawi.streamlit.app/)
+
+
 ### **Prerequisites**
 
 Before starting, ensure you have the following software installed:
